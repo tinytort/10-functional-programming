@@ -1,8 +1,7 @@
-![CF](https://i.imgur.com/7v5ASc8.png)  Lab 10: Functional Programming
+Lab 10: Functional Programming
 =======
-[Code of Conduct](https://github.com/codefellows/code-of-conduct)
 
-The concepts of functional programming have significantly shaped Computer Science from the early days.Today we'll a pply some "FP" concepts to the MVC Blog!
+The concepts of functional programming have significantly shaped Computer Science from the early days.Today we'll apply some "FP" concepts to the MVC Blog!
 
 Today there are many TODO items, but they are (mostly) smaller bites.
 
