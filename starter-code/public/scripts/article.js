@@ -1,5 +1,5 @@
 'use strict';
-var app = app || {};
+const app = app || {};
 
 // REVIEW: Check out all of the functions that we've cleaned up with arrow function syntax.
 
@@ -25,7 +25,7 @@ function Article(rawDataObj) {
 Article.all = [];
 
 Article.prototype.toHtml = function() {
-  var template = Handlebars.compile($('#article-template').text());
+  const template = Handlebars.compile($('#article-template').text());
 
   this.daysAgo = parseInt((new Date() - new Date(this.publishedOn))/60/60/24/1000);
   this.publishStatus = this.publishedOn ? `published ${this.daysAgo} days ago` : '(draft)';
