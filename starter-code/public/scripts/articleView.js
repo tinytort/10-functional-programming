@@ -1,5 +1,5 @@
 'use strict';
-const app = app || {};
+// const app = app || {};
 
 // REVIEW: Wrap the contents of this file, except for the preceding 'use strict' and 'var app...' declararions, in an IIFE.
 // Give the IIFE a parameter called 'module'.
